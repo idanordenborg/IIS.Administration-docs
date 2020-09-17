@@ -20,6 +20,7 @@ The web.config file is located at:
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <system.webServer>
+  <customErrors mode="Off"/>
     <handlers>
       <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModule" resourceType="Unspecified" />
     </handlers>
